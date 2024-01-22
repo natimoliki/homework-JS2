@@ -24,7 +24,7 @@ for (let i = 5; i < 100; i++) {
   let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for (let k = 0; k < array2.length; k++) {
     const element = array2[k];
-    if (k === 5) {
+    if (element === 5) {
     console.log('არის');
 break;
     }
